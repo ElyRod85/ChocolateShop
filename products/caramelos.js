@@ -1,42 +1,42 @@
+const category = 'Caramelos'; // Category
 const productsPerPage = 15; // Number of products to display per page
 let currentPage = 1; // Initial current page
 let productsData = []; // Array to store all the product data
 
-fetch('products/caramelos.json')
+fetch('products/products.json')
     .then(response => response.json())
     .then(data => {
-        productsData = data; // Store all the product data in the array
+        productsData = data; // Product data array
 
         const productList = document.getElementById('product-list');
         const loadMoreButton = document.getElementById('load-more');
         const toggleSoldOutButton = document.getElementById('toggle-sold-out');
         let showSoldOutProducts = true; // Flag to keep track of whether to show sold out products or not
 
-        // Function to display products for the current page
+        // Products for the current page
         const displayProducts = (page) => {
             const startIndex = (page - 1) * productsPerPage;
             const endIndex = startIndex + productsPerPage;
-            const currentPageProducts = productsData.slice(startIndex, endIndex);
-        
-            // Separate the available and sold-out products
+            const currentPageProducts = productsData.filter(product => product.category === category).slice(startIndex, endIndex);
+
+            // Available and sold-out products
             const availableProducts = currentPageProducts.filter(product => product.available);
             const soldOutProducts = currentPageProducts.filter(product => !product.available);
-        
+
             const allProducts = [...availableProducts, ...soldOutProducts];
-        
+
             allProducts.forEach(product => {
-                // Create product element
+                // Product divs
                 const productElement = document.createElement('div');
                 productElement.classList.add('product-item');
-        
+
                 if (product.available) {
-                    // Display available products
                     let priceHTML = `<p class="price">$${product.price}</p>`;
-        
-                    // Check if the product has a discount
+
+                    // For products with a discount
                     if (product.discount > 0) {
                         const discountedPrice = product.price - (product.price * (product.discount / 100));
-        
+
                         priceHTML = `
                             <p class="discount-tag">-${product.discount}%</p>
                             <div class="prices">
@@ -45,7 +45,7 @@ fetch('products/caramelos.json')
                             </div>
                         `;
                     }
-        
+
                     productElement.innerHTML = `
                         <p class="product-title">${product.name}</p>
                         <p class="cantidad">${product.quantity}</p>
@@ -87,9 +87,9 @@ fetch('products/caramelos.json')
 
                     `;
                 } else {
-                    // Display sold-out products
+                    // Sold-out products
                     productElement.classList.add('sold-out');
-        
+
                     productElement.innerHTML = `
                         <p class="product-title">${product.name}</p>
                         <p class="cantidad">${product.quantity}</p>
@@ -129,39 +129,38 @@ fetch('products/caramelos.json')
 
                     `;
                 }
-        
+
                 productList.appendChild(productElement);
             });
         };
-        
-        // Function to load more products
+
+        // Load more button
         const loadMoreProducts = () => {
             currentPage++;
             displayProducts(currentPage);
-        
-            // Hide the load more button if all products have been displayed
-            if (currentPage >= Math.ceil(productsData.length / productsPerPage)) {
+
+            // If all products are displayed, the button is hidden
+            if (currentPage >= Math.ceil(productsData.filter(product => product.category === category).length / productsPerPage)) {
                 loadMoreButton.style.display = 'none';
             }
         };
-        
-        // Function to toggle the display of sold out products
+
+        // Display sold out products
         const toggleSoldOutProducts = () => {
             const soldOutProducts = document.querySelectorAll('.product-item.sold-out');
-        
-            showSoldOutProducts = !showSoldOutProducts; // Toggle the flag
-        
+
+            showSoldOutProducts = !showSoldOutProducts;
+
             soldOutProducts.forEach(product => {
                 product.style.display = showSoldOutProducts ? 'flex' : 'none';
             });
-        
-            // Toggle button text
+
             toggleSoldOutButton.innerHTML = showSoldOutProducts ? 'Ocultar agotados <i class="fa-solid fa-eye-slash"></i>' : 'Mostrar agotados <i class="fa-solid fa-eye"></i>';
         };
-        
+
         loadMoreButton.addEventListener('click', loadMoreProducts);
         toggleSoldOutButton.addEventListener('click', toggleSoldOutProducts);
-        
-        // Display initial products
+
+        // Display default products
         displayProducts(currentPage);
     });
