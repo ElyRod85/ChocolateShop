@@ -1,0 +1,110 @@
+[
+    {
+        "name": "Box Oro",
+        "quantity": "180 gramos",
+        "price": 2160,
+        "image": "https://www.felfort.com.ar/media/catalog/product/1/4/14103_extra2_1.jpg",
+        "description": "Riquísimos bombones Oro elaborados con praliné con leche y presentados en este fino box de 180g.",
+        "available": true,
+        "discount": 10
+    },
+    {
+        "name": "Surtido Fans",
+        "quantity": "40 unidades",
+        "price": 5321,
+        "image": "https://www.felfort.com.ar/media/catalog/product/l/i/lista__2.jpg",
+        "description": "El surtido ideal para fanáticos de Felfort que contiene bocaditos Marroc, Dos Corazones y Mentitas.",
+        "available": true,
+        "discount": 20
+    },
+    {
+        "name": "Surtido Hot Sale",
+        "quantity": "1 kilo",
+        "price": 6901,
+        "image": "https://www.felfort.com.ar/media/catalog/product/1/4/14015_2.jpg",
+        "description": "Box de edición limitada contenedor de los mejores productos Felfort.",
+        "available": true,
+        "discount": 20
+    },
+    {
+        "name": "Corazon Oro Nº1",
+        "quantity": "65 gramos",
+        "price": 1030,
+        "image": "https://www.felfort.com.ar/media/catalog/product/f/e/felfort_catalogo_1307.jpg",
+        "description": "Delicada bombonera con forma de corazón integrada por lo más ricos bombones de praliné y leche.",
+        "available": false,
+        "discount": 10
+    },
+    {
+        "name": "Corazon Oro Nº2",
+        "quantity": "130 gramos",
+        "price": 1729,
+        "image": "https://www.felfort.com.ar/media/catalog/product/f/e/felfort_catalogo_1273.jpg",
+        "description": "Originales bombones Oro de praliné y leche presentados en una caja con forma de corazón de 130g.",
+        "available": true,
+        "discount": 10
+    },
+    {
+        "name": "Corazon Oro Nº3",
+        "quantity": "198 gramos",
+        "price": 2405,
+        "image": "https://www.felfort.com.ar/media/catalog/product/f/e/felfort_catalogo_1244.jpg",
+        "description": "Caja de 198g con forma de corazón contenedora de riquísimos bombones Oro hechos con praliné y leche.",
+        "available": true,
+        "discount": 30
+    },
+    {
+        "name": "Box Dos Corazones",
+        "quantity": "6 unidades",
+        "price": 1735,
+        "image": "https://www.felfort.com.ar/media/catalog/product/1/4/14100_envuelto_1.jpg",
+        "description": "Box compuesto de seis unidades del bocadito Dos Corazones, perfecto para enamorados.",
+        "available": true,
+        "discount": 20
+    },
+    {
+        "name": "Box Fan Marroc",
+        "quantity": "16 unidades",
+        "price": 2006,
+        "image": "https://www.felfort.com.ar/media/catalog/product/1/4/14011.jpg",
+        "description": "Surtido integrado con productos de la familia Marroc, perfecto para los fanáticos del bocadito.",
+        "available": false,
+        "discount": 20
+    },
+    {
+        "name": "Corazón Torre Oro",
+        "quantity": "393 gramos",
+        "price": 5432,
+        "image": "https://www.felfort.com.ar/media/catalog/product/f/e/felfort_catalogo_1674.jpg",
+        "description": "Bombones Oro de praliné y leche presentados en una torre de 3 cajas con forma de corazón.",
+        "available": false,
+        "discount": 30
+    },
+    {
+        "name": "Cubo Bajo en Azúcares",
+        "quantity": "8 unidades",
+        "price": 2130,
+        "image": "https://www.felfort.com.ar/media/catalog/product/f/e/felfort_catalogo_1682.jpg",
+        "description": "Sano surtido con productos bajos en azúcares presentados en un cubo transparente de acrílico.",
+        "available": true,
+        "discount": 10
+    },
+    {
+        "name": "Corazón Bombones Nº3",
+        "quantity": "198 gramos",
+        "price": 2768,
+        "image": "https://www.felfort.com.ar/media/catalog/product/f/e/felfort_catalogo_1532.jpg",
+        "description": "Imperdible bombonera con forma de corazón de 198g contenedora de los más ricos bombones Felfort.",
+        "available": true,
+        "discount": 10
+    },
+    {
+        "name": "Surtido Evento",
+        "quantity": "100 unidades",
+        "price": 9254,
+        "image": "https://www.felfort.com.ar/media/catalog/product/s/u/surtido-eventos-700x700-05_1.jpg",
+        "description": "El surtido indicado para cumpleaños compuesto por nuestros clásicos productos y bolsitas para armar.",
+        "available": true,
+        "discount": 20
+    }
+]

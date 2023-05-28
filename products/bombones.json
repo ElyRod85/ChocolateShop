@@ -1,0 +1,371 @@
+[
+    {
+        "name": "Jackelin",
+        "quantity": "30 unidades",
+        "price": 2972,
+        "image": "https://www.felfort.com.ar/media/catalog/product/6/3/635_caja_1.jpg",
+        "description": "Caja de 30 unidades del delicioso bocadito relleno de dulce de leche y bañado con chocolate Felfort.",
+        "available": true,
+        "discount": 0
+    },
+    {
+        "name": "Bombonera Surtida",
+        "quantity": "240 gramos",
+        "price": 3095,
+        "image": "https://www.felfort.com.ar/media/catalog/product/1/4/14200_extra_retocado_1.jpg",
+        "description": "La combinación ideal de bombones Felfort la encontrás en esta simple y elegante bombonera.",
+        "available": true,
+        "discount": 0
+    },
+    {
+        "name": "Bombones Cornet de Chocolate Blanco",
+        "quantity": "1 kilo",
+        "price": 12480,
+        "image": "https://www.felfort.com.ar/media/catalog/product/0/3/0321_caja_1_1.jpg",
+        "description": "Bombón irresistible de chocolate blanco con forma de conito y presentado en un envoltorio plateado.",
+        "available": true,
+        "discount": 0
+    },
+    {
+        "name": "Bombones de Sambayón",
+        "quantity": "1 kilo",
+        "price": 8785,
+        "image": "https://www.felfort.com.ar/media/catalog/product/0/3/0331_caja_1.jpg",
+        "description": "Original bombón relleno con pasta de sambayón y bañado con el más rico chocolate semiamargo.",
+        "available": true,
+        "discount": 0
+    },
+    {
+        "name": "Bombones de Chocolate Relleno de Gianduia",
+        "quantity": "1 kilo",
+        "price": 10105,
+        "image": "https://www.felfort.com.ar/media/catalog/product/0/3/0335_caja_1.jpg",
+        "description": "Original bombón relleno de pasta de gianduia bañado con el suave chocolate con leche Felfort.",
+        "available": true,
+        "discount": 0
+    },
+    {
+        "name": "Bombones Rellenos de Mousse",
+        "quantity": "1 kilo",
+        "price": 6325,
+        "image": "https://www.felfort.com.ar/media/catalog/product/0/3/0366_caja_1.jpg",
+        "description": "Bombón relleno con una deliciosa mousse de chocolate y bañado con chocolate con leche.",
+        "available": true,
+        "discount": 0
+    },
+    {
+        "name": "Bombones Surtidos",
+        "quantity": "1 kilo",
+        "price": 9500,
+        "image": "https://www.felfort.com.ar/media/catalog/product/1/4/14000_extra.jpg",
+        "description": "Encontrá la mejor combinación de bombones en esta elegante bombonera azul y blanca de 1kg.",
+        "available": true,
+        "discount": 0
+    },
+    {
+        "name": "Bombones de Chocolate al Whisky",
+        "quantity": "1 kilo",
+        "price": 7615,
+        "image": "https://www.felfort.com.ar/media/catalog/product/0/3/0332_caja_1.jpg",
+        "description": "Bombón relleno con chocolate al whisky y bañado con el tentador chocolate Felfort.",
+        "available": true,
+        "discount": 0
+    },
+    {
+        "name": "Bombonera Surtida Felicidades",
+        "quantity": "264 gramos",
+        "price": 2989,
+        "image": "https://www.felfort.com.ar/media/catalog/product/2/6/260_envuelto.jpg",
+        "description": "La mejor combinación de bombones la encontrás en este surtido ideal para dar en una ocasión especial.",
+        "available": true,
+        "discount": 0
+    },
+    {
+        "name": "Bombones Mentita",
+        "quantity": "1 kilo",
+        "price": 6905,
+        "image": "https://www.felfort.com.ar/media/catalog/product/0/3/0336_caja_1.jpg",
+        "description": "Bombón de chocolate semiamargo relleno de menta y decorado con nuestro clásico chocolate con leche.",
+        "available": true,
+        "discount": 0
+    },
+    {
+        "name": "Bombones Marroc",
+        "quantity": "1 kilo",
+        "price": 7569,
+        "image": "https://www.felfort.com.ar/media/catalog/product/0/3/0360_caja_1.jpg",
+        "description": "El emblemático bocadito Marroc presentado como un pequeño bombón y sin envoltorio.",
+        "available": false,
+        "discount": 0
+    },
+    {
+        "name": "Corazón Bombones Nº1",
+        "quantity": "81 gramos",
+        "price": 1345,
+        "image": "https://www.felfort.com.ar/media/catalog/product/f/e/felfort_catalogo_1563_1.jpg",
+        "description": "Bombonera con forma de corazón de 81g compuesta por piezas de la fina línea de bombones Felfort.",
+        "available": false,
+        "discount": 0
+    },
+    {
+        "name": "Marroc Mini",
+        "quantity": "1 kilo",
+        "price": 9222,
+        "image": "https://www.felfort.com.ar/media/catalog/product/0/1/0150_caja_1.jpg",
+        "description": "Delicioso bombón de praliné, una versión más pequeña del clásico bocadito Marroc.",
+        "available": true,
+        "discount": 0
+    },
+    {
+        "name": "Corazón Bombones Nº2",
+        "quantity": "117 gramos",
+        "price": 1875,
+        "image": "https://www.felfort.com.ar/media/catalog/product/f/e/felfort_catalogo_1563_1_1.jpg",
+        "description": "Disfrutá de los más finos bombones Felfort en esta caja con forma de corazón de 117g.",
+        "available": false,
+        "discount": 0
+    },
+    {
+        "name": "Bombonera Surtida Lovers",
+        "quantity": "264 gramos",
+        "price": 2989,
+        "image": "https://www.felfort.com.ar/media/catalog/product/2/6/265_envuelto.jpg",
+        "description": "El surtido de bombones perfecto para enamorados presentado en un estuche color plata metalizado.",
+        "available": true,
+        "discount": 0
+    },
+    {
+        "name": "Bombones Cornet de Chocolate",
+        "quantity": "1 kilo",
+        "price": 12480,
+        "image": "https://www.felfort.com.ar/media/catalog/product/0/3/0318_extra_1.1_1_1_1.jpg",
+        "description": "Tentador bombón de chocolate con leche con forma de conito y presentado en un envoltorio dorado.",
+        "available": true,
+        "discount": 0
+    },
+    {
+        "name": "Bombonera Hexagonal Mentitas",
+        "quantity": "180 gramos",
+        "price": 1786,
+        "image": "https://www.felfort.com.ar/media/catalog/product/0/3/0388_envuelto_1.1_1.jpg",
+        "description": "Fina bombonera hexagonal contenedora de exquisitos bombones rellenos con pasta de menta.",
+        "available": true,
+        "discount": 0
+    },
+    {
+        "name": "Bombones Coco Alaska",
+        "quantity": "1 kilo",
+        "price": 6375,
+        "image": "https://www.felfort.com.ar/media/catalog/product/0/3/0333_caja_1.jpg",
+        "description": "Original bombón con relleno de coco, bañado con un riquísimo chocolate y decorado con coco rallado.",
+        "available": true,
+        "discount": 0
+    },
+    {
+        "name": "Bombones de Chocolate Relleno de Frutilla",
+        "quantity": "1 kilo",
+        "price": 5638,
+        "image": "https://www.felfort.com.ar/media/catalog/product/0/3/0334_caja_1.jpg",
+        "description": "Bombón de frutilla recubierto con el más fino chocolate semiamargo y decorado con chocolate con leche.",
+        "available": true,
+        "discount": 0
+    },
+    {
+        "name": "Bombones Chocolate Deseo",
+        "quantity": "1 kilo",
+        "price": 5505,
+        "image": "https://www.felfort.com.ar/media/catalog/product/0/3/0328_caja_1.jpg",
+        "description": "Fino bombón relleno con una exquisita mousse de chocolate y bañado con chocolate semiamargo.",
+        "available": true,
+        "discount": 0
+    },
+    {
+        "name": "Bombonera Oro",
+        "quantity": "264 gramos",
+        "price": 2660,
+        "image": "https://www.felfort.com.ar/media/catalog/product/2/7/275_envuelto.jpg",
+        "description": "Con esta bombonera, disfrutá de los suaves bombones de praliné y leche envueltos con papel aluminio.",
+        "available": true,
+        "discount": 0
+    },
+    {
+        "name": "Bombones Cubanitos Rellenos",
+        "quantity": "1 kilo",
+        "price": 9175,
+        "image": "https://www.felfort.com.ar/media/catalog/product/0/3/0325_caja_1_1.jpg",
+        "description": "Cubanito bañado con chocolate con leche y relleno de una riquísima pasta de chocolate.",
+        "available": true,
+        "discount": 0
+    },
+    {
+        "name": "Bombones Surtidos Azul",
+        "quantity": "650 gramos",
+        "price": 6325,
+        "image": "https://www.felfort.com.ar/media/catalog/product/1/4/14004_envuelto_1.jpg",
+        "description": "Refinada bombonera azul y blanca de 650g integrada por los bombones más exquisitos Felfort.",
+        "available": true,
+        "discount": 0
+    },
+    {
+        "name": "Bombones de Chocolate Blanco",
+        "quantity": "1 kilo",
+        "price": 10392,
+        "image": "https://www.felfort.com.ar/media/catalog/product/0/3/0358_caja_1.jpg",
+        "description": "Exquisito bombón elaborado con el suave chocolate blanco Felfort.",
+        "available": true,
+        "discount": 0
+    },
+    {
+        "name": "Bombones Nobleza Alas",
+        "quantity": "1 kilo",
+        "price": 10244,
+        "image": "https://www.felfort.com.ar/media/catalog/product/0/3/0370_caja_1.jpg",
+        "description": "Bombón elaborado con el incomparable chocolate con leche Felfort.",
+        "available": true,
+        "discount": 0
+    },
+    {
+        "name": "Bombonera Hexagonal Marroc",
+        "quantity": "176 gramos",
+        "price": 2045,
+        "image": "https://www.felfort.com.ar/media/catalog/product/0/3/0389_envuelto_1.1_1.jpg",
+        "description": "Los clásicos bombones Marroc de praliné envueltos y presentados en una elegante bombonera hexagonal.",
+        "available": true,
+        "discount": 0
+    },
+    {
+        "name": "Bombonera Marroc",
+        "quantity": "264 gramos",
+        "price": 2840,
+        "image": "https://www.felfort.com.ar/media/catalog/product/0/2/0280_extra_1.2_1.jpg",
+        "description": "Probá el clásico bocadito Marroc de praliné blanco y leche en forma de bombón.",
+        "available": true,
+        "discount": 0
+    },
+    {
+        "name": "Bombones Surtidos",
+        "quantity": "500 gramos",
+        "price": 4900,
+        "image": "https://www.felfort.com.ar/media/catalog/product/1/4/14001_envuelto.jpg",
+        "description": "Fina bombonera de 500g compuesta por las más tentadoras piezas de nuestra línea de bombones.",
+        "available": true,
+        "discount": 0
+    },
+    {
+        "name": "Bombones con Crema de Cacao",
+        "quantity": "1 kilo",
+        "price": 5868,
+        "image": "https://www.felfort.com.ar/media/catalog/product/0/3/0329_caja_1.jpg",
+        "description": "Bombón relleno de una suave crema de cacao y bañado con el incomparable chocolate semiamargo Felfort.",
+        "available": true,
+        "discount": 0
+    },
+    {
+        "name": "Bombones Surtidos",
+        "quantity": "250 gramos",
+        "price": 2600,
+        "image": "https://www.felfort.com.ar/media/catalog/product/1/4/14002_envuelto.jpg",
+        "description": "Disfrutá de los más ricos bombones Felfort con esta refinada bombonera azul y blanca de 250g.",
+        "available": true,
+        "discount": 0
+    },
+    {
+        "name": "Bombón Oro (Granel)",
+        "quantity": "2 kilos",
+        "price": 14085,
+        "image": "https://www.felfort.com.ar/media/catalog/product/0/4/0403_caja.jpg",
+        "description": "Riquísimos bombones Oro elaborados con el clásico praliné Felfort.",
+        "available": true,
+        "discount": 0
+    },
+    {
+        "name": "Bombonera Hexagonal Chocolate Clásico 70%",
+        "quantity": "150 gramos",
+        "price": 2085,
+        "image": "https://www.felfort.com.ar/media/catalog/product/3/9/395_envuelto.jpg",
+        "description": "Tentadores bombones elaborados con chocolate semiamargo, presentados en una bombonera hexagonal.",
+        "available": false,
+        "discount": 0
+    },
+    {
+        "name": "Bombones Rellenos de Dulce de Leche",
+        "quantity": "1 kilo",
+        "price": 7615,
+        "image": "https://www.felfort.com.ar/media/catalog/product/3/3/330_caja.jpg",
+        "description": "El bombón indicado para los fanáticos del dulce de leche, bañado con el único chocolate Felfort.",
+        "available": false,
+        "discount": 0
+    },
+    {
+        "name": "Corazón Torre Bombones",
+        "quantity": "393 gramos",
+        "price": 6025,
+        "image": "https://www.felfort.com.ar/media/catalog/product/1/4/14112_caja.jpg",
+        "description": "Exclusiva torre de bomboneras con forma de corazón perfecta para regalar los finos bombones Felfort.",
+        "available": false,
+        "discount": 0
+    },
+    {
+        "name": "Bombones con Praliné",
+        "quantity": "1 kilo",
+        "price": 7470,
+        "image": "https://www.felfort.com.ar/media/catalog/product/0/3/0338_caja_1.jpg",
+        "description": "Combina chocolate con leche y praliné, chocolate blanco y una decoración con chocolate semiamargo.",
+        "available": false,
+        "discount": 0
+    },
+    {
+        "name": "Bombones Cornet de Chocolate Semiamargo",
+        "quantity": "1 kilo",
+        "price": 12480,
+        "image": "https://www.felfort.com.ar/media/catalog/product/0/3/0322_caja_1.jpg",
+        "description": "Bombón de chocolate semiamargo con forma de conito y presentado en un fino envoltorio color cobrizo.",
+        "available": false,
+        "discount": 0
+    },
+    {
+        "name": "Bombones Cremino Blockito",
+        "quantity": "1 kilo",
+        "price": 6756,
+        "image": "https://www.felfort.com.ar/media/catalog/product/0/3/0319_caja_1.jpg",
+        "description": "Un riquísimo bombón que combina nuestros incomparables chocolates semiamargo, con leche y blanco.",
+        "available": false,
+        "discount": 0
+    },
+    {
+        "name": "Corazón Dos Corazones y bombones Nº3",
+        "quantity": "1 caja",
+        "price": 2925,
+        "image": "https://www.felfort.com.ar/media/catalog/product/f/e/felfort_catalogo_1462.jpg",
+        "description": "Encontrá los más ricos bombones y bocaditos Dos Corazones en está bombonera con forma de corazón.",
+        "available": false,
+        "discount": 0
+    },
+    {
+        "name": "Corazón Bombones Nº3",
+        "quantity": "198 gramos",
+        "price": 2768,
+        "image": "https://www.felfort.com.ar/media/catalog/product/f/e/felfort_catalogo_1532.jpg",
+        "description": "Imperdible bombonera con forma de corazón de 198g contenedora de los más ricos bombones Felfort.",
+        "available": false,
+        "discount": 10
+    },
+    {
+        "name": "Corazón Oro Nº1",
+        "quantity": "65 gramos",
+        "price": 1030,
+        "image": "https://www.felfort.com.ar/media/catalog/product/f/e/felfort_catalogo_1307.jpg",
+        "description": "Delicada bombonera con forma de corazón integrada por lo más ricos bombones de praliné y leche.",
+        "available": false,
+        "discount": 10
+    },
+    {
+        "name": "Bombonera Hexagonal Oro",
+        "quantity": "150 gramos",
+        "price": 1786,
+        "image": "https://www.felfort.com.ar/media/catalog/product/3/8/387_envuelto.jpg",
+        "description": "Delicada bombonera que presenta los más ricos bombones de praliné con envoltorio dorado mentalizado.",
+        "available": false,
+        "discount": 0
+    }
+]

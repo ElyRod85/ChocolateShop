@@ -1,0 +1,65 @@
+[
+    {
+        "name": "Mix Barritas de Chocolate",
+        "quantity": "30 unidades",
+        "price": 3059,
+        "image": "https://www.felfort.com.ar/media/catalog/product/m/i/mix_barritas.jpg",
+        "description": "Si sos fanático de las barritas de chocolate, este mix personalizado de 30 unidades es para vos.",
+        "available": true,
+        "discount": 0
+    },
+    {
+        "name": "Barritas Chocolate Negro",
+        "quantity": "30 unidades",
+        "price": 2960,
+        "image": "https://www.felfort.com.ar/media/catalog/product/1/2/1260_extra_1.jpg",
+        "description": "El tentador y exquisito chocolate semidulce Felfort presentado en forma de barrita.",
+        "available": true,
+        "discount": 0
+    },
+    {
+        "name": "Barritas Chocolate con Leche",
+        "quantity": "30 unidades",
+        "price": 2960,
+        "image": "https://www.felfort.com.ar/media/catalog/product/1/2/1262_extra_1.jpg",
+        "description": "Disfrutá del incomparable chocolate con leche Felfort presentado en forma de barrita.",
+        "available": true,
+        "discount": 0
+    },
+    {
+        "name": "Barritas Chocolate Blanco",
+        "quantity": "30 unidades",
+        "price": 2960,
+        "image": "https://www.felfort.com.ar/media/catalog/product/1/2/1264_extra_1.jpg",
+        "description": "Tradicional barrita elaborada con el suave e irresistible chocolate blanco Felfort.",
+        "available": false,
+        "discount": 0
+    },
+    {
+        "name": "Barritas Chocolate, Leche y Maní",
+        "quantity": "30 unidades",
+        "price": 2370,
+        "image": "https://www.felfort.com.ar/media/catalog/product/1/2/1266_extra_1.jpg",
+        "description": "Única y deliciosa barrita con la mejor combinación de chocolate con leche y maní.",
+        "available": true,
+        "discount": 0
+    },
+    {
+        "name": "Barritas Chocolate Clásico 70%",
+        "quantity": "30 unidades",
+        "price": 2960,
+        "image": "https://www.felfort.com.ar/media/catalog/product/1/2/1268_extra_1.jpg",
+        "description": "La emblemática barrita elaborada con nuestro tentador chocolate clásico 70% cacao.",
+        "available": true,
+        "discount": 0
+    },
+    {
+        "name": "Barritas Diabfort",
+        "quantity": "30 unidades",
+        "price": 2960,
+        "image": "https://www.felfort.com.ar/media/catalog/product/1/2/1270_extra_1.jpg",
+        "description": "Riquísima y sana barrita de chocolate dietético con leche descremada sin agregado en azúcares.",
+        "available": true,
+        "discount": 0
+    }
+]

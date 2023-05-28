@@ -1,0 +1,182 @@
+[
+    {
+        "name": "Mix Felfort",
+        "quantity": "1 caja",
+        "price": 5321,
+        "image": "https://www.felfort.com.ar/media/catalog/product/1/4/14003_envuelto_1_3.jpg",
+        "description": "Mix personalizado con el que podrás combinar tus productos de Felfort preferidos.",
+        "available": true,
+        "discount": 0
+    },
+    {
+        "name": "Mix Barritas de Chocolate",
+        "quantity": "30 unidades",
+        "price": 3059,
+        "image": "https://www.felfort.com.ar/media/catalog/product/m/i/mix_barritas.jpg",
+        "description": "Si sos fanático de las barritas de chocolate, este mix personalizado de 30 unidades es para vos.",
+        "available": true,
+        "discount": 0
+    },
+    {
+        "name": "Bombonera Surtida",
+        "quantity": "240 gramos",
+        "price": 3095,
+        "image": "https://www.felfort.com.ar/media/catalog/product/1/4/14200_envuelto_1.jpg",
+        "description": "La combinación ideal de bombones Felfort la encontrás en esta simple y elegante bombonera.",
+        "available": true,
+        "discount": 0
+    },
+    {
+        "name": "Surtido Fans",
+        "quantity": "40 unidades",
+        "price": 5321,
+        "image": "https://www.felfort.com.ar/media/catalog/product/1/4/14009_extra_1.2_1.jpg",
+        "description": "El surtido ideal para fanáticos de Felfort que contiene bocaditos Marroc, Dos Corazones y Mentitas.",
+        "available": false,
+        "discount": 20
+    },
+    {
+        "name": "Box Marroc Mini",
+        "quantity": "32 unidades",
+        "price": 4010,
+        "image": "https://www.felfort.com.ar/media/catalog/product/1/4/14103_extra.jpg",
+        "description": "Box de 32 unidades del rico bombón Mini Marroc, versión pequeña del famoso bocadito.",
+        "available": true,
+        "discount": 0
+    },
+    {
+        "name": "Corazón Oro Nº2",
+        "quantity": "130 gramos",
+        "price": 1729,
+        "image": "https://www.felfort.com.ar/media/catalog/product/f/e/felfort_catalogo_1273.jpg",
+        "description": "Originales bombones Oro de praliné y leche presentados en una caja con forma de corazón de 130g.",
+        "available": false,
+        "discount": 10
+    },
+    {
+        "name": "Corazón Oro Nº3",
+        "quantity": "198 gramos",
+        "price": 2405,
+        "image": "https://www.felfort.com.ar/media/catalog/product/f/e/felfort_catalogo_1244.jpg",
+        "description": "Caja de 198g con forma de corazón contenedora de riquísimos bombones Oro hechos con praliné y leche.",
+        "available": false,
+        "discount": 30
+    },
+    {
+        "name": "Felfort Est. 1912",
+        "quantity": "32 unidades",
+        "price": 4500,
+        "image": "https://www.felfort.com.ar/media/catalog/product/1/4/14119_extra_2.jpg",
+        "description": "Original surtido que celebra nuestra historia conteniendo los productos de Felfort más emblemáticos.",
+        "available": true,
+        "discount": 0
+    },
+    {
+        "name": "Mix Refresco",
+        "quantity": "12 unidades",
+        "price": 1155,
+        "image": "https://www.felfort.com.ar/media/catalog/product/m/i/mix_refresco_1.jpg",
+        "description": "Armá tu propio mix con los sabores de caramelos de la familia Refresco que más te gusten.",
+        "available": true,
+        "discount": 0
+    },
+    {
+        "name": "Box Mega Fan Marroc",
+        "quantity": "56 unidades",
+        "price": 5400,
+        "image": "https://www.felfort.com.ar/media/catalog/product/b/o/box_mega_fan_marroc_03_100_.jpg",
+        "description": "Box con productos de la línea Marroc dedicado a los más fanáticos del clásico bocadito.",
+        "available": true,
+        "discount": 0
+    },
+    {
+        "name": "Corazón Bombones Nº1",
+        "quantity": "81 gramos",
+        "price": 1345,
+        "image": "https://www.felfort.com.ar/media/catalog/product/f/e/felfort_catalogo_1563_1.jpg",
+        "description": "Bombonera con forma de corazón de 81g compuesta por piezas de la fina línea de bombones Felfort.",
+        "available": false,
+        "discount": 0
+    },
+    {
+        "name": "Corazón Bombones Nº2",
+        "quantity": "117 gramos",
+        "price": 1875,
+        "image": "https://www.felfort.com.ar/media/catalog/product/f/e/felfort_catalogo_1551_1.jpg",
+        "description": "Disfrutá de los más finos bombones Felfort en esta caja con forma de corazón de 117g.",
+        "available": false,
+        "discount": 0
+    },
+    {
+        "name": "Mix Cereales",
+        "quantity": "24 unidades",
+        "price": 2843,
+        "image": "https://www.felfort.com.ar/media/catalog/product/1/4/14010_extra2_1.jpg",
+        "description": "Combina tus barritas Cerealfort favoritas en este exclusivo mix personalizado de 24 unidades.",
+        "available": true,
+        "discount": 0
+    },
+    {
+        "name": "Surtido Hot Sale",
+        "quantity": "1 kilo",
+        "price": 6901,
+        "image": "https://www.felfort.com.ar/media/catalog/product/1/4/14015_2.jpg",
+        "description": "Box de edición limitada contenedor de los mejores productos Felfort.",
+        "available": false,
+        "discount": 20
+    },
+    {
+        "name": "Box Oro",
+        "quantity": "180 gramos",
+        "price": 2160,
+        "image": "https://www.felfort.com.ar/media/catalog/product/1/4/14103_producto.jpg",
+        "description": "Riquísimos bombones Oro elaborados con praliné con leche y presentados en este fino box de 180g.",
+        "available": false,
+        "discount": 10
+    },
+    {
+        "name": "Box Fan Marroc",
+        "quantity": "16 unidades",
+        "price": 2006,
+        "image": "https://www.felfort.com.ar/media/catalog/product/1/4/14011.jpg",
+        "description": "Surtido integrado con productos de la familia Marroc, perfecto para los fanáticos del bocadito.",
+        "available": false,
+        "discount": 20
+    },
+    {
+        "name": "Corazón Surtido Nº3",
+        "quantity": "12 unidades",
+        "price": 2635,
+        "image": "https://www.felfort.com.ar/media/catalog/product/f/e/felfort_catalogo_1587.jpg",
+        "description": "Surtido con forma de corazón integrado por bombones, Mentitas, Dos Corazones y más.",
+        "available": false,
+        "discount": 0
+    },
+    {
+        "name": "Corazón Torre Bombones",
+        "quantity": "393 gramos",
+        "price": 6025,
+        "image": "https://www.felfort.com.ar/media/catalog/product/1/4/14112_caja.jpg",
+        "description": "Exclusiva torre de bomboneras con forma de corazón perfecta para regalar los finos bombones Felfort.",
+        "available": false,
+        "discount": 0
+    },
+    {
+        "name": "Corazón Torre Surtido",
+        "quantity": "3 cajas",
+        "price": 6015,
+        "image": "https://www.felfort.com.ar/media/catalog/product/f/e/felfort_catalogo_1641.jpg",
+        "description": "Torre de cajas surtidas con forma de corazón contenedoras de los clásicos productos Felfort.",
+        "available": false,
+        "discount": 0
+    },
+    {
+        "name": "Surtido Felices Fiestas",
+        "quantity": "10 unidades",
+        "price": 2579,
+        "image": "https://www.felfort.com.ar/media/catalog/product/s/u/surtido-navide_o-700x700-03.jpg",
+        "description": "El surtido festivo que contiene nuestros clásicos productos navideños, ideal para acompañar tu mesa.",
+        "available": false,
+        "discount": 0
+    }
+]

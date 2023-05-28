@@ -1,0 +1,245 @@
+[
+    {
+        "name": "Chocolate Clásico 70%",
+        "quantity": "16 unidades",
+        "price": 8889,
+        "image": "https://www.felfort.com.ar/media/catalog/product/1/4/1470_extra_1.1_1.jpg",
+        "description": "La tradicional e irresistible tableta de chocolate clásico 70% cacao.",
+        "available": true,
+        "discount": 0
+    },
+    {
+        "name": "Kooky Bon",
+        "quantity": "30 unidades",
+        "price": 1629,
+        "image": "https://www.felfort.com.ar/media/catalog/product/0/6/0692_extra.jpg",
+        "description": "Bocadito relleno con una tentadora crema de Marroc y bañado con chocolate con leche Felfort.",
+        "available": true,
+        "discount": 0
+    },
+    {
+        "name": "Dos Corazones",
+        "quantity": "20 unidades",
+        "price": 2940,
+        "image": "https://www.felfort.com.ar/media/catalog/product/7/5/750_envuelto.jpg",
+        "description": "El icónico bocadito relleno y bañado con el dulce y exquisito chocolate con leche Felfort.",
+        "available": true,
+        "discount": 0
+    },
+    {
+        "name": "Marroc",
+        "quantity": "60 unidades",
+        "price": 5805,
+        "image": "https://www.felfort.com.ar/media/catalog/product/6/1/610_envuelto.jpg",
+        "description": "El único e inigualable bombón de praliné blanco y leche en presentación de caja de 60 unidades.",
+        "available": true,
+        "discount": 0
+    },
+    {
+        "name": "Fort Mani",
+        "quantity": "12 unidades",
+        "price": 1719,
+        "image": "https://www.felfort.com.ar/media/catalog/product/1/3/1331_extra.jpg",
+        "description": "Una combinación tentadora de chocolate con leche Felfort y el más rico maní.",
+        "available": true,
+        "discount": 0
+    },
+    {
+        "name": "Barrita Chocolate Clásico 70%",
+        "quantity": "30 unidades",
+        "price": 2960,
+        "image": "https://www.felfort.com.ar/media/catalog/product/1/2/1268_extra_1.1_1.jpg",
+        "description": "La emblemática barrita elaborada con nuestro tentador chocolate clásico 70% cacao.",
+        "available": true,
+        "discount": 0
+    },
+    {
+        "name": "Jackelin",
+        "quantity": "30 unidades",
+        "price": 2972,
+        "image": "https://www.felfort.com.ar/media/catalog/product/0/6/0635_extra_1.1_1_1.jpg",
+        "description": "Caja de 30 unidades del delicioso bocadito relleno de dulce de leche y bañado con chocolate Felfort.",
+        "available": true,
+        "discount": 0
+    },
+    {
+        "name": "Chocolate Espacial Fort",
+        "quantity": "20 unidades",
+        "price": 2930,
+        "image": "https://www.felfort.com.ar/media/catalog/product/2/0/2003_extra.jpg",
+        "description": "Barrita de chocolate aireado con motivos espaciales hechos con chocolate blanco y semidulce.",
+        "available": true,
+        "discount": 0
+    },
+    {
+        "name": "Moneditas Pirata",
+        "quantity": "60 unidades",
+        "price": 2789,
+        "image": "https://www.felfort.com.ar/media/catalog/product/1/6/1600_envuelto.jpg",
+        "description": "Las únicas moneditas pirata elaboradas con chocolate con leche y envueltas en papel aluminio dorado.",
+        "available": true,
+        "discount": 0
+    },
+    {
+        "name": "Medallón Relleno de Dulce de Leche",
+        "quantity": "20 unidades",
+        "price": 2000,
+        "image": "https://www.felfort.com.ar/media/catalog/product/8/3/836_extra.jpg",
+        "description": "Delicioso bocadito de chocolate semiamargo relleno de un suave pero tentador dulce de leche.",
+        "available": true,
+        "discount": 0
+    },
+    {
+        "name": "Tabletón de Chocolate, Leche y Maní",
+        "quantity": "20 unidades",
+        "price": 4800,
+        "image": "https://www.felfort.com.ar/media/catalog/product/1/4/1439_extra.jpg",
+        "description": "Disfrutá de la combinación perfecta de chocolate y maní en este clásico y delicioso tabletón Felfort.",
+        "available": true,
+        "discount": 0
+    },
+    {
+        "name": "Bananina",
+        "quantity": "30 unidades",
+        "price": 3005,
+        "image": "https://www.felfort.com.ar/media/catalog/product/8/4/840_extra.jpg",
+        "description": "Bocadito relleno de una deliciosa crema de banana y bañado con el suave chocolate con leche Felfort.",
+        "available": true,
+        "discount": 0
+    },
+    {
+        "name": "Bananina Split",
+        "quantity": "30 unidades",
+        "price": 3005,
+        "image": "https://www.felfort.com.ar/media/catalog/product/8/4/845_extra.jpg",
+        "description": "Clásico bocadito recubierto con chocolate con leche y relleno con crema de banana y dulce de leche.",
+        "available": true,
+        "discount": 0
+    },
+    {
+        "name": "Alfafort",
+        "quantity": "24 unidades",
+        "price": 3585,
+        "image": "https://www.felfort.com.ar/media/catalog/product/0/4/0415_extra_1.2_1_1.jpg",
+        "description": "Original bocadito de marshmallow relleno con dulce de leche y recubierto con chocolate con leche.",
+        "available": false,
+        "discount": 0
+    },
+    {
+        "name": "Feeling",
+        "quantity": "30 unidades",
+        "price": 3405,
+        "image": "https://www.felfort.com.ar/media/catalog/product/0/6/0695_extra.jpg",
+        "description": "Original cubanito relleno con una exquisita crema Marroc y cubierto con chocolate con leche Felfort.",
+        "available": true,
+        "discount": 0
+    },
+    {
+        "name": "Barrita Chocolate, Leche y Maní",
+        "quantity": "24 unidades",
+        "price": 2370,
+        "image": "https://www.felfort.com.ar/media/catalog/product/1/2/1266_extra_1.1_1.jpg",
+        "description": "Única y deliciosa barrita con la mejor combinación de chocolate con leche y maní.",
+        "available": true,
+        "discount": 0
+    },
+    {
+        "name": "Licoritas",
+        "quantity": "25 unidades",
+        "price": 3530,
+        "image": "https://www.felfort.com.ar/media/catalog/product/7/3/730_envuelto.jpg",
+        "description": "La famosa botellita de chocolate semiamargo rellena de licor al chocolate.",
+        "available": true,
+        "discount": 0
+    },
+    {
+        "name": "Paragüitas",
+        "quantity": "40 unidades",
+        "price": 4022,
+        "image": "https://www.felfort.com.ar/media/catalog/product/0/9/0950_extra_1.2_2.jpg",
+        "description": "El clásico chupetín con forma de paragüitas elaborado a base de cacao.",
+        "available": true,
+        "discount": 0
+    },
+    {
+        "name": "Fort Air",
+        "quantity": "20 unidades",
+        "price": 2833,
+        "image": "https://www.felfort.com.ar/media/catalog/product/2/0/2004_caja.jpg",
+        "description": "El riquísimo e irresistible chocolate con leche aireado Felfort.",
+        "available": false,
+        "discount": 0
+    },
+    {
+        "name": "Chocolate Fort Diet",
+        "quantity": "20 unidades",
+        "price": 10485,
+        "image": "https://www.felfort.com.ar/media/catalog/product/1/7/1780_extra.jpg",
+        "description": "Rica y saludable tableta de chocolate con leche sin agregado de azúcares.",
+        "available": true,
+        "discount": 0
+    },
+    {
+        "name": "Mentitas",
+        "quantity": "30 unidades",
+        "price": 2977,
+        "image": "https://www.felfort.com.ar/media/catalog/product/8/3/830_extra_1.jpg",
+        "description": "El clásico y delicioso bocadito de chocolate relleno con una refrescante crema de menta.",
+        "available": true,
+        "discount": 0
+    },
+    {
+        "name": "Bocadito D'or",
+        "quantity": "30 unidades",
+        "price": 2175,
+        "image": "https://www.felfort.com.ar/media/catalog/product/9/8/985_extra.jpg",
+        "description": "Cubanito relleno recubierto con un crocante cereal y bañado en chocolate con leche Felfort.",
+        "available": false,
+        "discount": 0
+    },
+    {
+        "name": "Bocadito Delicia",
+        "quantity": "48 unidades",
+        "price": 2599,
+        "image": "https://www.felfort.com.ar/media/catalog/product/6/8/680_extra_1.jpg",
+        "description": "Tentador bocadito relleno con dulce de leche y bañado con el más rico chocolate Felfort.",
+        "available": false,
+        "discount": 0
+    },
+    {
+        "name": "Jack Chocolate con Leche Emoji",
+        "quantity": "20 unidades",
+        "price": 5919,
+        "image": "https://www.felfort.com.ar/media/catalog/product/1/5/1508_extra_1.2_1.jpg",
+        "description": "Es el clásico chocolatín con sorpresa emoji elaborado con el exquisito chocolate con leche Felfort.",
+        "available": true,
+        "discount": 0
+    },
+    {
+        "name": "Chupelatín",
+        "quantity": "32 unidades",
+        "price": 4735,
+        "image": "https://www.felfort.com.ar/media/catalog/product/9/7/970_envuelto.jpg",
+        "description": "Clásico chupetín con más de 14 variaciones y elaborado con chocolate con leche, blanco y semiamargo.",
+        "available": true,
+        "discount": 0
+    },
+    {
+        "name": "Tabletón Leche y Maní",
+        "quantity": "8 unidades",
+        "price": 11139,
+        "image": "https://www.felfort.com.ar/media/catalog/product/1/4/1430_extra.jpg",
+        "description": "Tabletón elaborado con chocolate con leche Felfort y maní en una elegante presentación.",
+        "available": true,
+        "discount": 0
+    },
+    {
+        "name": "Torroncino",
+        "quantity": "30 unidades",
+        "price": 6980,
+        "image": "https://www.felfort.com.ar/media/catalog/product/1/3/1335_extra.jpg",
+        "description": "Sana e irresistible barrita de chocolate con leche y cereal sin agregado de azúcar y 0% grasas trans.",
+        "available": true,
+        "discount": 0
+    }
+]
