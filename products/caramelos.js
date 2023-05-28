@@ -12,9 +12,6 @@ fetch('products/caramelos.json')
         const toggleSoldOutButton = document.getElementById('toggle-sold-out');
         let showSoldOutProducts = true; // Flag to keep track of whether to show sold out products or not
 
-        // Check if all products are available
-        const allAvailable = productsData.every(product => product.available);
-
         // Function to display products for the current page
         const displayProducts = (page) => {
             const startIndex = (page - 1) * productsPerPage;
@@ -54,8 +51,40 @@ fetch('products/caramelos.json')
                         <p class="cantidad">${product.quantity}</p>
                         <img src="${product.image}" alt="${product.name}">
                         ${priceHTML}
-                        <a href="producto.html" class="product-details">Detalles <i class="fa-solid fa-chevron-right"></i></a>
+                        <a href="#" class="product-details" data-toggle="modal" data-target="#modalDetalles-${product.name}">Detalles <i class="fa-solid fa-chevron-right"></i></a>
                         <a href="#" class="add-to-cart">Agregar al carrito</a>
+
+                        <div class="modal fade details-modal" id="modalDetalles-${product.name}" tabindex="-1" role="dialog" aria-labelledby="Reservar" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="Detalles">${product.name}</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true"><i class="fa-solid fa-xmark"></i></span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+
+                                        <div class="product-detail">
+                                            <div class="details">
+                                                <p>${product.description}</p>
+                                                <p>Este producto contiene ${product.quantity}.</p>
+                                                <p class="price">Precio: ${priceHTML}</p>
+                                            </div>
+                                            <div class="main-img">
+                                                <img src="${product.image}" alt="${product.name}">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary close-button" data-dismiss="modal">Cerrar</button>
+                                        <button type="button" class="btn btn-primary add-to-cart" data-dismiss="modal">Agregar al carrito</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                     `;
                 } else {
                     // Display sold-out products
@@ -67,19 +96,44 @@ fetch('products/caramelos.json')
                         <img src="${product.image}" alt="${product.name}" class="sold-out-img">
                         <p class="price">$${product.price}</p>
                         <p class="sold-out">Agotado</p>
-                        <a href="reservar.html" class="add-to-cart">Reservar <i class="fa-regular fa-clock"></i></a>
+                        <a href="#" class="add-to-cart" data-toggle="modal" data-target="#modalReservas-${product.name}">Reservar <i class="fa-regular fa-clock"></i></a>
+
+                        <div class="modal fade reservations-modal" id="modalReservas-${product.name}" tabindex="-1" role="dialog" aria-labelledby="Reservar" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="Reservar">Reservar ${product.name}</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true"><i class="fa-solid fa-xmark"></i></span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>Ingrese su e-mail para recibir una notificación cuando este producto se encuentre disponible nuevamente:</p>
+                                        <form class="reservas">
+                                            <input type="email" placeholder="Ingrese su e-mail" name="email">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                                <label class="form-check-label" for="defaultCheck1">
+                                                    Deseo suscribirme a la newsletter de Felfort
+                                                </label>
+                                                </div>
+                                            <button type="submit">Notificarme</button>
+                                        </form>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                     `;
                 }
         
                 productList.appendChild(productElement);
             });
-
-            // Hide the load more button if all products have been displayed
-            if (currentPage >= Math.ceil(productsData.length / productsPerPage)) {
-                loadMoreButton.style.display = 'none';
-            }
         };
-
+        
         // Function to load more products
         const loadMoreProducts = () => {
             currentPage++;
@@ -90,7 +144,7 @@ fetch('products/caramelos.json')
                 loadMoreButton.style.display = 'none';
             }
         };
-
+        
         // Function to toggle the display of sold out products
         const toggleSoldOutProducts = () => {
             const soldOutProducts = document.querySelectorAll('.product-item.sold-out');
@@ -104,20 +158,10 @@ fetch('products/caramelos.json')
             // Toggle button text
             toggleSoldOutButton.innerHTML = showSoldOutProducts ? 'Ocultar agotados <i class="fa-solid fa-eye-slash"></i>' : 'Mostrar agotados <i class="fa-solid fa-eye"></i>';
         };
-
-        if (!allAvailable) {
-            toggleSoldOutButton.addEventListener('click', toggleSoldOutProducts);
-        } else {
-            toggleSoldOutButton.style.display = 'none';
-        }
         
         loadMoreButton.addEventListener('click', loadMoreProducts);
+        toggleSoldOutButton.addEventListener('click', toggleSoldOutProducts);
         
         // Display initial products
         displayProducts(currentPage);
-        
-        // Hide the load more button if the number of products is fewer than 15
-        if (productsData.length < productsPerPage) {
-            loadMoreButton.style.display = 'none';
-        }
     });

@@ -51,8 +51,40 @@ fetch('products/marroc.json')
                         <p class="cantidad">${product.quantity}</p>
                         <img src="${product.image}" alt="${product.name}">
                         ${priceHTML}
-                        <a href="producto.html" class="product-details">Detalles <i class="fa-solid fa-chevron-right"></i></a>
+                        <a href="#" class="product-details" data-toggle="modal" data-target="#modalDetalles-${product.name}">Detalles <i class="fa-solid fa-chevron-right"></i></a>
                         <a href="#" class="add-to-cart">Agregar al carrito</a>
+
+                        <div class="modal fade details-modal" id="modalDetalles-${product.name}" tabindex="-1" role="dialog" aria-labelledby="Reservar" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="Detalles">${product.name}</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true"><i class="fa-solid fa-xmark"></i></span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+
+                                        <div class="product-detail">
+                                            <div class="details">
+                                                <p>${product.description}</p>
+                                                <p>Este producto contiene ${product.quantity}.</p>
+                                                <p class="price">Precio: ${priceHTML}</p>
+                                            </div>
+                                            <div class="main-img">
+                                                <img src="${product.image}" alt="${product.name}">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary close-button" data-dismiss="modal">Cerrar</button>
+                                        <button type="button" class="btn btn-primary add-to-cart" data-dismiss="modal">Agregar al carrito</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                     `;
                 } else {
                     // Display sold-out products
@@ -64,7 +96,37 @@ fetch('products/marroc.json')
                         <img src="${product.image}" alt="${product.name}" class="sold-out-img">
                         <p class="price">$${product.price}</p>
                         <p class="sold-out">Agotado</p>
-                        <a href="reservar.html" class="add-to-cart">Reservar <i class="fa-regular fa-clock"></i></a>
+                        <a href="#" class="add-to-cart" data-toggle="modal" data-target="#modalReservas-${product.name}">Reservar <i class="fa-regular fa-clock"></i></a>
+
+                        <div class="modal fade reservations-modal" id="modalReservas-${product.name}" tabindex="-1" role="dialog" aria-labelledby="Reservar" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="Reservar">Reservar ${product.name}</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true"><i class="fa-solid fa-xmark"></i></span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>Ingrese su e-mail para recibir una notificación cuando este producto se encuentre disponible nuevamente:</p>
+                                        <form class="reservas">
+                                            <input type="email" placeholder="Ingrese su e-mail" name="email">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                                <label class="form-check-label" for="defaultCheck1">
+                                                    Deseo suscribirme a la newsletter de Felfort
+                                                </label>
+                                                </div>
+                                            <button type="submit">Notificarme</button>
+                                        </form>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                     `;
                 }
         
