@@ -1,0 +1,247 @@
+main {
+    max-width: 90%;
+    margin: 130px auto 0 auto;
+    padding: 0;
+}
+
+@media screen and (max-width:992px) {
+    main {
+        margin: 50px auto 0 auto;
+    }
+}
+  
+@media screen and (max-width:769px) {
+    main {
+        width: 100%;
+    }
+}
+
+button {
+    outline: none;
+}
+
+
+/* Breadcrumbs */
+
+main .breads {
+    width: 100%;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+main .breads ul {
+    padding: 0;
+    list-style: none;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(73, 73, 73);
+}
+  
+main .breads ul li {
+    display: inline;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(73, 73, 73);
+
+}
+  
+main .breads ul li+li:before {
+    padding: 8px;
+    color: rgb(73, 73, 73);
+    content: "\f101";
+    font-size: 14px;
+    font-family: "Font Awesome 5 free";
+}
+  
+main .breads ul li a {
+    color: rgb(143, 99, 48);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    transition: 300ms;
+}
+  
+main .breads ul li a:hover {
+    color: rgb(215, 150, 74);
+    transition: 300ms;
+}
+
+
+
+main h1 {
+    color: rgb(116, 67, 11);
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+    text-align: center;
+    margin: 50px auto 30px auto;
+}
+
+main p.story {
+    width: 80%;
+    margin: 0 auto 0 auto;
+    text-align: center;
+    font-size: 17px;
+}
+
+@media(max-width: 767px) {
+    main p.story {
+        width: 90%;
+    }
+    main h1 {
+        font-size: 40px;
+    }
+}
+
+/* Timeline */
+
+main .timeline {
+	width: 100%;
+    margin: 50px auto 50px auto;
+	padding: 10px;
+}
+
+main .timeline .timeline-items {
+	width: 90%;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	position: relative;
+}
+
+main .timeline-items::before {
+	content: '';
+	position: absolute;
+	width: 2px;
+	height: 100%;
+	background-color: rgb(215, 150, 74);
+	left: calc(50% - 1px);
+}
+
+main .timeline .timeline-items .timeline-item {
+	margin-bottom: 40px;
+	width: 100%;
+	position: relative;
+}
+
+main .timeline .timeline-items .timeline-item:last-child {
+	margin-bottom: 0;
+}
+
+main .timeline .timeline-items .timeline-item:nth-child(odd) {
+    padding-right: calc(50% + 30px);
+	text-align: right;
+}
+
+main .timeline .timeline-items .timeline-item:nth-child(even) {
+    padding-left: calc(50% + 30px);
+}
+
+main .timeline .timeline-dot {
+	height: 16px;
+	width: 16px;
+	background-color: rgb(215, 150, 74);
+	position: absolute;
+	left: calc(50% - 8px);
+	border-radius: 50%;
+	top: 10px;
+}
+
+main .timeline .timeline-items .timeline-date {
+	font-size: 18px;
+    font-weight: 700;
+	color: rgb(143, 99, 48);
+	margin: 6px 0 15px;
+}
+
+main .timeline .timeline-items .timeline-content {
+	border: 2px solid rgb(215, 150, 74);
+	padding: 20px;
+	border-radius: 5px;
+}
+
+main .timeline .timeline-items .timeline-content .contents {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+main .timeline .timeline-items .timeline-content .contents img {
+    width: 25%;
+}
+
+main .timeline .timeline-items .timeline-content .contents p {
+    width: 70%;
+}
+
+main .timeline .timeline-items .timeline-content .contents .full {
+    width: 100%;
+}
+
+
+main .timeline .timeline-items .timeline-content p {
+    color: rgb(73, 73, 73);
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.5;
+    padding: 0;
+    margin: 0;
+}
+
+@media(max-width: 1025px) {
+    main .timeline {
+        padding: 0;
+    }
+    
+    main .timeline .timeline-items {
+        width: 100%;
+    }
+}
+
+@media(max-width: 769px) {
+    main .timeline {
+        margin: 50px auto 50px auto;
+        padding: 0;
+    }
+
+    main .timeline-items {
+        width: 100%;
+    }
+
+	main .timeline-items::before{
+		left: 7px;
+	}
+
+	main .timeline .timeline-items .timeline-item:nth-child(odd) {
+		padding-right: 0;
+		text-align: left;
+	}
+
+	main .timeline .timeline-items .timeline-item:nth-child(odd),
+	main .timeline .timeline-items .timeline-item:nth-child(even) {
+		padding-left: 37px;
+	}
+
+	main .timeline .timeline-dot {
+		left: 0;
+	}
+    main .timeline .timeline-items .timeline-content .contents {
+        flex-flow: column wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+    
+    main .timeline .timeline-items .timeline-content .contents img {
+        width: 100%;
+        order: 1;
+    }
+    
+    main .timeline .timeline-items .timeline-content .contents p {
+        width: 100%;
+        order: 2;
+    }
+}
+
