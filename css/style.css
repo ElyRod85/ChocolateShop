@@ -1472,6 +1472,15 @@ main .blog-posts .blog-post img {
     margin: 0 auto 20px auto;
 }
 
+main .blog-posts .blog-post p.post-date {
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    padding: 0 5px 0 10px;
+    margin-bottom: 0.5rem;
+    color: rgb(123, 123, 123);
+}
+
 main .blog-posts .blog-post p.post-title {
     font-size: 18px;
     font-weight: 700;
