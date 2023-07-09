@@ -1,0 +1,443 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,900;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Lobster&family=Lora&family=Roboto&display=swap');
+
+
+* {
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+p, h1, h2, h3 {
+    color: rgb(63, 63, 63);
+}
+
+h1, h2, h3 {
+    font-family: 'Rubik', sans-serif;
+    letter-spacing: -1px;
+    padding: 10px 0 5px 0;
+}
+
+h1 { 
+    font-size: 2em;
+}
+
+h1.title {
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.7em;
+}
+
+h3 {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+ul {
+    color: rgb(63, 63, 63);
+}
+
+li {
+    color: rgb(63, 63, 63);
+}
+
+main {
+    width: 90%;
+    margin: 100px auto 30px auto;
+    padding: 0;
+}
+
+main strong {
+    font-weight: 900;
+}
+
+main em {
+    font-style: italic;
+}
+
+main p {
+    font-size: 16px;
+}
+
+button {
+    outline: none;
+}
+
+
+
+
+
+
+/* Nav */
+
+#my-header {
+    margin-bottom: 51px;
+}
+
+#my-header nav {
+    padding: 10px 20px 10px 20px;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid rgba(0,0,0,0.11);
+    width: 100%;
+    z-index: 1;
+    font-weight: 900;
+    margin-bottom: 40px;
+}
+
+#my-header nav .navbar-brand {
+    font-family: 'Rubik', sans-serif;
+    letter-spacing: -1px;
+    color: rgb(63, 63, 63);
+}
+
+#my-header nav .navbar-nav a {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: rgb(255, 180, 92);
+    transition: 300ms;
+}
+
+#my-header nav .navbar-nav a:hover {
+    color: rgb(235, 150, 50);
+    transition: 300ms;
+}
+
+#my-header button {
+    outline: none;
+    border: 0;
+}
+
+
+
+/* Images */
+
+main figure {
+    width: 100%;
+}
+
+main figure img {
+    width: 100%;
+}
+
+main figure figcaption {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    padding: 10px 0 10px 0;
+    font-style: italic;
+    text-align: center;
+    color: rgb(63, 63, 63);
+}
+
+main a {
+    color: rgb(235, 150, 50);
+    transition: 300ms;
+    font-weight: 900;
+}
+    
+main a:hover {
+    color: rgb(255, 180, 92);
+    transition: 300ms;
+}
+
+main .comparison2 {
+    width: 100%;
+    margin: 40px auto 40px auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+main .comparison2 figure {
+    width: 45%;
+}
+
+main p.center {
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    main .comparison2 {
+        flex-flow: column wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+    main .comparison2 figure {
+        width: 90%;
+        margin: 0 auto 0 auto;
+    }
+}
+
+
+
+/* Colors */
+
+main .color-side {
+    width: 45%;
+}
+
+@media (max-width: 768px) {
+    main .color-side {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+}
+
+main .color-side .colors {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: stretch;
+    gap: 20px;
+}
+
+main .color-side .colors .color {
+    border-radius: 5px;
+    padding: 10px;
+    width: 45%;
+    height: 150px;
+}
+
+main .color-side .colors .color .text {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    padding: 0 10px 0 10px;
+}
+
+main .color-side .colors .color p {
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+    letter-spacing: 0;
+    margin: 5px 0 5px 0;
+}
+
+main .color-side .colors p.color-code {
+    letter-spacing: 1px;
+}
+
+main .color-side .colors .lblue {
+    background-color: rgb(222, 228, 235);
+}
+
+main .color-side .colors .lblue p {
+    color: rgb(23, 23, 23);
+}
+
+main .color-side .colors .dblue {
+    background-color: rgb(44, 64, 88);
+}
+
+main .color-side .colors .dblue p {
+    color: rgb(255, 255, 255);
+}
+
+main .color-side .colors .green {
+    background-color: rgb(131, 189, 188);
+}
+
+main .color-side .colors .green p {
+    color: rgb(23, 23, 23);
+}
+
+main .color-side .colors .red {
+    background-color: rgb(207, 45, 35);
+}
+
+main .color-side .colors .red p {
+    color: rgb(255, 255, 255);
+}
+
+main .color-side .colors .dbrown {
+    background-color: rgb(116, 67, 11);
+}
+
+main .color-side .colors .dbrown p {
+    color: rgb(255, 255, 255);
+}
+
+main .color-side .colors .lbrown {
+    background-color: rgb(143, 99, 48);
+}
+
+main .color-side .colors .lbrown p {
+    color: rgb(255, 255, 255);
+}
+
+main .color-side .colors .orange {
+    background-color: rgb(215, 150, 74);
+}
+
+main .color-side .colors .orange p {
+    color: rgb(23, 23, 23);
+}
+
+main .color-side .colors .lorange {
+    background-color: rgb(229, 165, 88);
+}
+
+main .color-side .colors .lorange p {
+    color: rgb(23, 23, 23);
+}
+
+
+/* Fonts */
+
+main .comparison2 .fonts {
+    width: 95%;
+    margin: 30px auto 30px auto;
+}
+
+main .comparison2 .fonts .font {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 20px;
+}
+
+main .comparison2 .fonts .font p.font-name {
+    font-weight: bold;
+    font-size: 24px;
+    width: 20%;
+    text-align: center;
+}
+
+main .comparison2 .fonts .font p.font-lorem {
+    font-size: 16px;
+    padding: 10px;
+    margin: 0;
+    width: 38%;
+    border-radius: 5px;
+}
+
+main .comparison2 .fonts .font p.dark {
+    background-color: rgb(63, 63, 63);
+    color: rgb(255, 255, 255);
+}
+
+main .comparison2 .fonts .lato p {
+    font-family: 'Lato', sans-serif;
+}
+
+main .comparison2 .fonts .lora p {
+    font-family: 'Lora', serif;
+}
+
+main .comparison2 .fonts .roboto p {
+    font-family: 'Roboto', sans-serif;
+}
+
+main .comparison2 .fonts .lobster p {
+    font-family: 'Lobster', cursive;
+}
+
+
+
+/* Button */
+
+
+main .button {
+    margin: 50px auto 0 auto;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 14px;
+    border-radius: 50px;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: fit-content;
+    display: block;
+    background-color: rgb(255, 180, 92);
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 180, 92);
+    text-decoration: none;
+    transition: 300ms;
+}
+
+main .button i {
+    padding-left: 10px;
+}
+
+main .button:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 180, 92);
+    transition: 300ms;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+
+footer {
+    background: rgb(98,98,98);
+    background: -moz-radial-gradient(circle, rgb(90, 90, 90) 0%, rgba(60,60,60,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(90, 90, 90,1) 0%, rgba(60,60,60,1) 100%);
+    background: radial-gradient(circle, rgba(90, 90, 90,1) 0%, rgba(60,60,60,1) 100%);
+    padding: 0;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    margin: 100px auto 0 auto;
+}
+
+footer .footer-name p {
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    text-align: center;
+    margin: 0 auto 0 auto;
+    padding: 10px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
